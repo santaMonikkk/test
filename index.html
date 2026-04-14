@@ -1,25 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="ru">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная страница</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header>
-      <nav>
-         <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Контакты</a></li>
-         </ul>
-   </header>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">QWER</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-   <h1>Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</h1>
-   <section>
-      <main>
-         <h1>Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</h1>
-      </main>
-   </section>
+  <main class="container">
+    <section class="hero">
+      <p class="tag">Чёрная минималистичная тема</p>
+      <h1>Современная главная страница</h1>
+      <p>
+        Мы сделали аккуратный и читаемый макет с понятной структурой:
+        header, основной контент и footer.
+      </p>
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary">Начать</a>
+        <a href="#" class="btn btn-secondary">Подробнее</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <article class="card">
+        <h2>Быстро</h2>
+        <p>Оптимизированная вёрстка и чистая структура HTML.</p>
+      </article>
+      <article class="card">
+        <h2>Стильно</h2>
+        <p>Тёмная цветовая палитра с контрастными акцентами.</p>
+      </article>
+      <article class="card">
+        <h2>Удобно</h2>
+        <p>Адаптивная сетка и понятная навигация для пользователей.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 QWER. Все права защищены.</p>
+      <a href="mailto:hello@qwer.site">hello@qwer.site</a>
+    </div>
+  </footer>
 </body>
 </html>
